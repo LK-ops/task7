@@ -40,7 +40,6 @@ async function getData(id = null) {
       }
     }
 
-    // Check the status code
     if (response.status === 200) {
       console.log("it's all good");
     } else {
@@ -52,10 +51,7 @@ async function getData(id = null) {
   }
 }
 
-// To get all posts, call getData() without any arguments
-// getData();
 
-// To get a specific post, call getData with an id, e.g., getData(1)
 getData();
 getData(24);
 
